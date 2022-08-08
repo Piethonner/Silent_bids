@@ -1,6 +1,8 @@
 ## Silent auction bidding tool ##
+
 print("Welcome to Silent Auction!")
 program = True
+
 ## All the bids are stored here: #
 bids = {}
 
@@ -13,6 +15,7 @@ def highest_bid(TOP):
             winner = bidder
     print(f"The winner is {winner} with a bid of {top_bid}€!")
 ## looping through while each time there is a new person inputing data ("yes") ##
+
 while program:
     name = input("Provide your name: ")
     price = int(input("Provide bidding value in €: "))
